@@ -9,7 +9,7 @@ except IndexError:
     print("Need an argument for number of decimal places.")
     raise
 except ValueError:
-    print("Argument was not an integer.")
+    print("Argument was not entered as an integer.")
     raise
 
 print(output)
